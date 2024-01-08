@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jutsu-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Daniil <ksusonic@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.1"
+beautifulsoup4 = "^4.12.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
